@@ -165,6 +165,10 @@ return [
         /*
          * Package Service Providers...
          */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
         Maatwebsite\Excel\ExcelServiceProvider::class,
         /*
          * Application Service Providers...

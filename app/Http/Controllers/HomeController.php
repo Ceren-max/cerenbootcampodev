@@ -74,6 +74,15 @@ class HomeController extends Controller
     public function index(){
         return view('name');
     }
+<<<<<<< HEAD
+=======
+
+    public function index()
+    {
+        return view('home');
+    }
+
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
     public function delete($id)
     {
        // DB::table('users')->where('id','=',$id)->delete(); // Hard delete ile veriyi kalıcı siler. TAVSİYE EDİLMEZ!

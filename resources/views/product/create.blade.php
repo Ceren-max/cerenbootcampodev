@@ -9,7 +9,11 @@
                             <strong>Ürün Ekleme </strong> Formu
                         </div>
                         <div class="card-body card-block">
+<<<<<<< HEAD
                             <form action="{{route('Product.create')}}" method="post" enctype="multipart/form-data">
+=======
+                            <form action="{{route('product.create')}}" method="post" enctype="multipart/form-data">
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
                                 <div class="form-group">
                                     <label for="exampleName">Name</label>
                                     <input type="text" name="name" class="form-control">

@@ -7,7 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     protected $fillable = [
+<<<<<<< HEAD
         'name', 'photo', 'price','is_approve', 'created_by', 'updated_by', 'deleted_by'
+=======
+        'name', 'photo', 'price', 'is_approve', 'created_by', 'updated_by', 'deleted_by'
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
     ];
 
     public function user()

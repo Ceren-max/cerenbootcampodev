@@ -7,7 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+<<<<<<< HEAD
     <title>{{ config('app.name', 'Laravel') }}</title>
+=======
+    <title>{{ config('app.name', 'Bootcamp') }}</title>
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,7 +28,11 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
+<<<<<<< HEAD
                     {{ config('app.name', 'Laravel') }}
+=======
+                    {{ config('app.name', 'Bootcamp') }}
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

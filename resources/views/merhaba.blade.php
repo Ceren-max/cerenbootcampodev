@@ -16,7 +16,11 @@
 Merhaba burda view çalıştı! <br>
 
 @foreach($products as $product)
+<<<<<<< HEAD
 <img src="{{asset('/uploads/products/').'/'.$product->photo}}" alt ="{{$product->name}}" width="400px" height="200px" /> - {{ $product->user[0]->name }} - {{ $product->name }} - {{$product->price .' $'}} <br>
+=======
+    <img src="{{asset('/uploads/products/').'/'.$product->photo}}" alt="{{$product->name}}" width="200px" height="200px"/>  - {{ $product->user[0]->name }} - {{ $product->name }} - {{$product->price .' $'}} <br>
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
 @endforeach
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

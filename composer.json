@@ -14,7 +14,11 @@
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.24",
         "laravel/tinker": "^2.0",
+<<<<<<< HEAD
         "laravel/ui": "^2.4",
+=======
+        "laravel/ui": "^2.2",
+>>>>>>> 373d37e3791dae0e0379ad040a688e9264169e32
         "maatwebsite/excel": "^3.1"
     },
     "require-dev": {
