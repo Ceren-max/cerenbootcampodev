@@ -47,6 +47,7 @@ class HomeController extends Controller
 
     }
 
+
     public function updateView($id)
     {
         $user = User::where('id',$id)->get();
@@ -68,10 +69,11 @@ class HomeController extends Controller
     public function indexView()
     {
         $users = User::where('deleted_at','=',null)->get();
-        return view('users.index', compact('users'));
+        return view('user.index', compact('users'));
     }
-
-
+    public function index(){
+        return view('name');
+    }
     public function delete($id)
     {
        // DB::table('users')->where('id','=',$id)->delete(); // Hard delete ile veriyi kalıcı siler. TAVSİYE EDİLMEZ!

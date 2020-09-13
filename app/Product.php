@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     protected $fillable = [
-        'name', 'photo', 'price', 'created_by', 'updated_by', 'deleted_by'
+        'name', 'photo', 'price','is_approve', 'created_by', 'updated_by', 'deleted_by'
     ];
 
     public function user()
     {
-        return $this->hasMany('App\User','id','created_by');
+        return $this->hasMany('App\User','id','created_by');//ıd created_by a denk geliyor eşleştirip çek demek bu komut
     }
 
 }
